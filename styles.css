@@ -77,11 +77,14 @@ input[type="search"] {
 
 .toggle-all-btn {
   flex: 0 0 auto;
+  min-width: 140px;
   padding: 0 14px;
   cursor: pointer;
   font: inherit;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
+  line-height: 1;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -372,7 +375,8 @@ input[type="search"]:focus,
   }
 
   .toggle-all-btn {
-    font-size: 16px;
+    min-width: 132px;
+    font-size: 15px;
     padding-left: 12px;
     padding-right: 12px;
   }
