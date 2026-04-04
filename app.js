@@ -4,7 +4,7 @@ const DATA = {"domains": [{"number": 1, "title": "Domain 1: Foundational Knowled
 
 const APP_CONFIG = {
   webAppUrl: 'https://script.google.com/macros/s/AKfycbyqHt3_fvPGHifgAVCk1G9Iug94jkBvwIibY38j65A5LMQH-H5e2P6O5jSpWrRiMuESeg/exec',
-  googleClientId: '760704756331-hv3nvjsgg5o3215uv6601vrfibdsicem.apps.googleusercontent.com',
+  googleClientId: '760704756331-hv3nvjsgg5o3215uv660lvrfibdsicem.apps.googleusercontent.com',
   examType: 'MA',
 };
 
