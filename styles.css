@@ -61,7 +61,7 @@ h1 {
 .controls {
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 16px;
   flex: 1 1 auto;
   min-width: 0;
 }
@@ -133,7 +133,7 @@ input[type="search"]:focus,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0;
+  gap: 12px;
 }
 
 .search-meta {
