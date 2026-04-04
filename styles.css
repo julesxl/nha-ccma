@@ -61,7 +61,7 @@ h1 {
 .controls {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0;
   flex: 1 1 auto;
   min-width: 0;
 }
@@ -133,7 +133,7 @@ input[type="search"]:focus,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 0;
 }
 
 .search-meta {
@@ -203,20 +203,6 @@ input[type="search"]:focus,
   color: var(--muted);
 }
 
-.chevron {
-  flex: 0 0 auto;
-  width: 18px;
-  height: 18px;
-  border-right: 2px solid #0b57d0;
-  border-bottom: 2px solid #0b57d0;
-  transform: rotate(45deg);
-  transition: transform .18s ease;
-}
-
-.domain-card.open > .domain-toggle .chevron,
-.source-card.open > .source-toggle .chevron {
-  transform: rotate(-135deg);
-}
 
 .domain-body {
   display: none;
