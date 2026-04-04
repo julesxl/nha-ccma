@@ -240,12 +240,7 @@ function renderDomains() {
 
     const scoreBadge = createDomainScoreBadge(domain);
 
-    const chevron = document.createElement('span');
-    chevron.className = 'chevron';
-    chevron.setAttribute('aria-hidden', 'true');
-
     rightWrap.appendChild(scoreBadge);
-    rightWrap.appendChild(chevron);
 
     toggle.appendChild(titleWrap);
     toggle.appendChild(rightWrap);
@@ -289,12 +284,7 @@ function renderDomains() {
       sourceWrap.appendChild(sourceTitle);
       sourceWrap.appendChild(sourceMeta);
 
-      const sourceChevron = document.createElement('span');
-      sourceChevron.className = 'chevron';
-      sourceChevron.setAttribute('aria-hidden', 'true');
-
       sourceToggle.appendChild(sourceWrap);
-      sourceToggle.appendChild(sourceChevron);
       sourceToggle.addEventListener('click', () => {
         if (state.openSources.has(key)) {
           state.openSources.delete(key);
