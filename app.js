@@ -1,11 +1,11 @@
 const DATA = {"domains": [{"number": 1, "title": "Domain 1: Foundational Knowledge and Basic Science", "sources": {"Blesi": [{"title": "CH05: Medical Terminology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSen8TJMYKioD184f-BQEREnASRDXKsDYuix85Qe-XGH0fQmKw/viewform"}, {"title": "CH02: Professionalism", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdD-AadvtHGZJOWrYIjtrm5rupUKixgdV08paVtErGTmFg3Uw/viewform"}, {"title": "CH01: Health Care Team & Medical Environment", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeLSLU8jlGTnSt1M8nH_FXGvmevTEkdih5k89H5Ghz5AuLuXw/viewform"}, {"title": "CH40: Mental Health", "url": "https://docs.google.com/forms/d/e/1FAIpQLScqq0jDSzhcBuvkyPbusvg-iFCxvzchLnfg-5LkKnc-k1HMrA/viewform"}, {"title": "CH50: Measurements & Dosage Calculations", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfXfRfkZNVBJfk35ii6dKS143jfgVbtXf_pxoB_gGK78RptLA/viewform"}, {"title": "CH49: Pharmacology Fundamentals", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf-ZUrju3aUHvcAsH4Rgbi5D5JXckAfbK-ziLwAxR8fpLTLtg/viewform"}, {"title": "CH56: Nutrition & Exercise", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdGlK8WcAJKFYQToqHgeI7LPDTrDnwEATq4bViPwc4OODdoVQ/viewform"}, {"title": "CH57: Practicum & Job Search", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf7pW3W7tfUdCRdd-I8ZZuD5b1xyXfJ3tHPxQBOQBtH_AeZjQ/viewform"}], "Kinns": [{"title": "CH50: Professional Skills & Strategies", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfadnBGnsRXAwb7jnG6zNbBox3_0Lx8M0AaPUecBy0VXQEXMg/viewform"}, {"title": "CH28: Principles of Pharmacology", "url": "https://docs.google.com/forms/d/e/1FAIpQLScRjUWVhaXXATfhlsqxMyc8f9MWsq31t_zgdymN0hXod_N0dA/viewform"}, {"title": "CH29: Pharmacology Math", "url": "https://docs.google.com/forms/d/e/1FAIpQLSepyt_c56y7fS_50cYvfzJSwuk1rsbJr902mjIlIyVfRAeCMg/viewform"}, {"title": "CH33: Allergy & Infectious Disease", "url": "https://docs.google.com/forms/d/e/1FAIpQLSd23j_TT5PbqI4BNbPDG_7vjwP0ga-cbIl-vFcM7o6-sMkntA/viewform"}, {"title": "CH37: Behavioral Health", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1DvC22nVTPSB3gjSieo5aP-Ia3ufUc38BO1ClnQnsMQoQoA/viewform"}, {"title": "CH48: Analysis of Blood", "url": "https://docs.google.com/forms/d/e/1FAIpQLSd_7AO9qZZKAqg6JH8wbFGyYil0PfC2WjLG8IChBixFEh00EQ/viewform"}, {"title": "CH49: Microbiology & Immunology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeUXNVVLdheGQVmvbXoN6bSgA3gS9LIBuvlE6oYiNiKcQLu4g/viewform"}, {"title": "CH01: Professional MA & Healthcare Team", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeZ4sQVtLxY01K0tch5CbyXewdGeZXbS7jAhqKyuR-XMQMDNQ/viewform"}]}}, {"number": 2, "title": "Domain 2: Anatomy and Physiology", "sources": {"Blesi": [{"title": "CH08: The Senses", "url": "https://docs.google.com/forms/d/e/1FAIpQLScorTxKqQIQvd7Kr4PkNtZPTLGxSwQsF0VpAa8jMRirra8bkQ/viewform"}, {"title": "CH09: The Integumentary System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeZG0gJNilENhz-EKdU20TR8Y7kz2O7zPZatfbnjPYlmD4LOw/viewform"}, {"title": "CH06: Fundamental Body Structure", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnLVkkJapV-fI8CP2ZL4hav3dLLyvCwcpBwDGy6Z5hLEcNyQ/viewform"}, {"title": "CH07: The Nervous System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSenPDO-oYmt0ACjvaDTKC8Gi_KMujyqqRgyx-2-GjYcyg2NOA/viewform"}, {"title": "CH10: The Skeletal System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeXe2FlT2R4TFVFNkGeYCfuKjpj86zItEA4qPJqR5x-cSHMkQ/viewform"}, {"title": "CH12: The Respiratory System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSesoXof7oX11cbZ57XBQEJWWRB1pucIShSChOvpTw6i9sSU4A/viewform"}, {"title": "CH14: The Immune System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdsZtOQI-mbBiTVXYaRuWq9koh8jHq7C5WIvvvQpvidyAe4vA/viewform"}, {"title": "CH13: The Circulatory System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdlxNIj-aniUoFbI2i0kn4cXfmVfp-LgYT-AGGDRL_Snif5mA/viewform"}, {"title": "CH11: The Muscular System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfNQSyHZk9NXt2SMyj_8qnEDzvz8N6rNfiAj-FUJEL-dQy-bw/viewform"}, {"title": "CH18: The Reproductive System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSffEtOhwxvd7DktWEIrGKZHCFHQ6wOuwiIMHNECQ1GIzC854g/viewform"}, {"title": "CH15: The Digestive System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSekV4e-EaikKfx-AxdVGjHhxIwGEVOFl-y92ImOlRtGwGh1dw/viewform"}, {"title": "CH17: The Endocrine System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSc8C2uO5-2nPsoN9U7sEemNGW-ryvgXdMdmiFeWAo2DdC0w3A/viewform"}, {"title": "CH16: The Urinary System", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQl7ljuKtj5SnVS3P-svQvte-wisjrXWjuDVsUdv7f031vDw/viewform"}], "Kinns": [{"title": "CH18: Intro to Anatomy & MT", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeiHK5zvMjg0t69yd04Cn3FsADCQ-_jg09PGNhS86T-D8r9Mw/viewform"}, {"title": "CH34: Gastroenterology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf75H03Sgxc8A7iUOJNuO6FWGfJlc180MSkULUxX8vOorWy-A/viewform"}, {"title": "CH32: Dermatology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdZF4KHpcOt5YFM4QrEGkH9TjQufYpcKdTOb7KF2aZBf_Soig/viewform"}, {"title": "CH31: Ophthalmology and Otolaryngology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdAxmvwZ88fM56khPMvuZ48Yw_j0V4I807r8JQOcc5338QsjQ/viewform"}, {"title": "CH38: Endocrinology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSc0i_-61WWRLVcUbXZ4taUwLPULK8pBBF6tg0biOO86UOm66w/viewform"}, {"title": "CH35: Orthopedics & Rheumatology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYhBStSeX16tnGlfcXNAlWp0T9BsCZrXhN9mK5J12oLiJtcg/viewform"}, {"title": "CH36: Neurology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfQJW8AoAKc-ySziEXDE7bIUYLYfBuWWV855RfRnEWoWQg4dA/viewform"}, {"title": "CH42: Obstetrics & Gynecology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSd4vdPJH6wD17Zy-_ZduFr3BqekmcQ3Hg4P1LzkJGPgF_slZg/viewform"}, {"title": "CH40: Pulmonology", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfIdpe03xoNi1P9ImWxyNNmxpf0JFU-dxWktZoGv02xhs8LDg/viewform"}, {"title": "CH41: Urology & Male Reproduction", "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7O__dQamUwJYsJHbwNzRxqoNvEvi6E00N5xhXU7DzBeSZXQ/viewform"}]}}, {"number": 3, "title": "Domain 3: Clinical Patient Care", "sources": {"Blesi": [{"title": "CH33: Body Measurements & Vital Signs", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfKRRagI1Rvvl2irGk73jExEJiz2rsDagMX2K8TzXcIDmHgOQ/viewform"}, {"title": "CH31: Infection Control & Asepsis", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFnnq9jA7uoxbkjUhkfXszzzTk-zztSW3Xp-pYiPIIZduSsA/viewform"}, {"title": "CH34: Preparing for Examinations", "url": "https://docs.google.com/forms/d/e/1FAIpQLSe3k7LxdvwbeS2UZ9eEudRhWZaOC9Ppo3OXTNjAX2WzLuFPgw/viewform"}, {"title": "CH32: Medical History & Patient Screening", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYxRd-T3mTf8gKH6Bcb3ytBQ6Sb8Bd_8Yv0-VobbiZ0U06vw/viewform"}, {"title": "CH38: Pediatric Examinations", "url": "https://docs.google.com/forms/d/e/1FAIpQLScTu1osp_HqRQgrBDxBOVyuRMoBSfJqydrBAEzl_9KnzrHMJw/viewform"}, {"title": "CH38: Pediatric Examinations", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfT0HGmCjobJEbRCDWmhr_df1JUleDE4_AO6HCQxex0QwrW3Q/viewform"}, {"title": "CH35: The Physical Exam", "url": "https://docs.google.com/forms/d/e/1FAIpQLSe4x-VBbWdfDKig3wy7cQ2XGRVyKrn4mO9JcrceiL2wyOiZgQ/viewform"}, {"title": "CH37: OBGYN Examinations", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeRhK29l6xJg-56--srf0z7n8-QBnq0SRjvNHdmebt-dGbZ_w/viewform"}, {"title": "CH36: Specialty Examinations & Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSel41EYs-X6ciBGjqJT8oNIVjAR7WDTGxjg372HtYf4ifuueQ/viewform"}, {"title": "CH43: Blood Specimen Collection", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdICo_BkVLO4wE9BM-gpcOhMxxA884NglbaErItSwXA1PDhTg/viewform"}, {"title": "CH39: Geriatrics", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdL7jtiYfj8DzOYQHeEB6c0fFs-KRVn3HWfIoPAmoFYwxJDgg/viewform"}, {"title": "CH41: Physicians Office Laboratory", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeNdtKmBopXGIHq4ZR6p2t1nO5fYrkk11doDfGlGTEsLbc6TA/viewform"}, {"title": "CH42: Specimen Collection & Processing", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnj0slxwzMdFSgtKy-KLWLbW3LnsV2dzE22Sbw0wiR1ga9GQ/viewform"}, {"title": "CH45: Cardiology Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSddoTSMAOd-fUlubGhgXnDUgxzCaQKcdOOWWDxscNRyvkfRWg/viewform"}, {"title": "CH47: Preparing for Surgery", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf-07mXppUt_bkeKS12FWoX4XV0vH-eV-vrO2k98OZCNMC_ww/viewform"}, {"title": "CH48: Assisting with Minor Surgery", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdCxiZ14o-f64-6q5AJ-8HPYSDk6PPaV2Q9YBwlwz4g2zFS0A/viewform"}, {"title": "CH44: Diagnostic Testing", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeA043LDXQfEA5utj0MJmWqZxIP0TGY6LpuXuQZ2TrwCgraPA/viewform"}, {"title": "CH46: Radiology Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfWM6J8shczJ6MgRvON7RiM0fyePEeG56n8gcoI0q9Edhm8cw/viewform"}, {"title": "CH53: Emergency Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvb577V-nmN79BcS6wDG6eJJMdffpy-Xp7fJdPxdo7WtOCag/viewform"}, {"title": "CH54: First Aid for Accidents & Injuries", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfd-O-dq53RBuTQfBYR_cTPZzTF_WRvGuoJJ9kSEJjzIo4EuQ/viewform"}, {"title": "CH51-52: Administering Medications", "url": "https://docs.google.com/forms/d/e/1FAIpQLSejaHrzKuKuZj2JGVh5EFA9cC-wpvvwZvK3MNCmI50leS8-6Q/viewform"}, {"title": "CH55: Rehabilitation", "url": "https://docs.google.com/forms/d/e/1FAIpQLSd_eaQbC5DwfJnUOTN8-SH65rNgZRjid2f-Qfd3542STnp9xA/viewform"}], "Kinns": [{"title": "CH20: Vital Signs", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfyWvTQirY0b7Vi7yXRzhfymOuPiPqWWeXiPbzqpHutSdVoxA/viewform"}, {"title": "CH21: Physical Examination", "url": "https://docs.google.com/forms/d/e/1FAIpQLScHipBsOBe6VOGOYHiHM1xFxKU3CUtPPQWkqw-LaH6gQ9ANVQ/viewform"}, {"title": "CH24: Surgical Supplies & Instruments", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeFgGz18__gqskD6Rb79JyYXU_dhSEBW_KCn_lHv31cfy0uIQ/viewform"}, {"title": "CH27: Medical Emergencies", "url": "https://docs.google.com/forms/d/e/1FAIpQLScVw8fSFpMKVNa0lw6l7EnEHu1syrajNdVrMY7y9Fr8VsKTyg/viewform"}, {"title": "CH25: Assisting with Surgical Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSc31tC-kY7eXJus8zJykVfYV5wy0gTxwvhb9EHpfjNjm6NtrA/viewform"}, {"title": "CH26: Principles of Electrocardiography", "url": "https://docs.google.com/forms/d/e/1FAIpQLScA5_lrwaD_iDB4e3SZTZ1HwDwi0vpPCmAevgiAmJ0KvEMGbA/viewform"}, {"title": "CH30: Administering Medications", "url": "https://docs.google.com/forms/d/e/1FAIpQLSceXOdsZ5io2AjIVqKs1ewe66RnDBYiK5phQxz1vod8ttKwVw/viewform"}, {"title": "CH39: Cardiology", "url": "https://docs.google.com/forms/d/e/1FAIpQLScKbvyGlXaRLlUt9v8qqqaCpDoQfui7J7ibPVJK6Q_5XuQv8A/viewform"}, {"title": "CH43: Pediatrics", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdt5NV6uvB1r6bAU2IYosPUgFQYG8wCchCbdhCSa-ZWH5CT3Q/viewform"}, {"title": "CH44: Geriatrics", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1MqfRDbo6Y7Yd9e2ATlZY34Tl7npRaEtkHqv9m6t_fCpcYw/viewform"}, {"title": "CH45: Intro To Clinical Lab", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeKRTNcXLz1mnMxLMBVAqMcRk7HERgijJkB_p0T6jIvKOLg6g/viewform"}, {"title": "CH46: Urinalysis", "url": "https://docs.google.com/forms/d/e/1FAIpQLSev4wZy15IjcWDA8ip9cEbPsJGeWBtyp6RsZZTtrQWS8JJ1sw/viewform"}, {"title": "CH47: Blood Collection", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeuEbMosQvgBa0K0rXxQ6dJk9TPvcovpMRlAO9oYGzfvsexVQ/viewform"}]}}, {"number": 4, "title": "Domain 4: Patient Care Coordination and Education", "sources": {"Blesi": [], "Kinns": [{"title": "CH23: Nutrition and Health Promotion", "url": "https://docs.google.com/forms/d/e/1FAIpQLScxTGI3XBCNxHuV8EEMAzBVyDWnlRTt8pnfXfh1cdRkO_J_CQ/viewform"}, {"title": "CH22: Patient Coaching", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeoja4jO5CJQlMtcTuUugH33YYq0s2lhX-TePBGwcJVu1SGxw/viewform"}]}}, {"number": 5, "title": "Domain 5: Administrative Assisting", "sources": {"Blesi": [{"title": "CH58: Office MGMT", "url": "https://docs.google.com/forms/d/e/1FAIpQLScoBfAiglTJzKRLZELzBM1zj8HWy342xlhD45-aUOLpEcIjhQ/viewform"}, {"title": "CH24: Health Insurance", "url": "https://docs.google.com/forms/d/e/1FAIpQLSefr8nIpAZ1gW1tfobMPJkdQ0aWG3lM3M7HJVLDquGNqfAOSw/viewform"}, {"title": "CH21: Office Computers & Equipment", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdQ5Bc7r5S7SusHQrF9pVHRdrFUEL092voocRj45Ycg_mAVbg/viewform"}, {"title": "CH23: Medical Record Documentation Filing", "url": "https://docs.google.com/forms/d/e/1FAIpQLScmqHv-rBOMFEn4k7OwVIJbWU0O6SeoDwyUkuY5faVSQP4HWA/viewform"}, {"title": "CH22: Scheduling Appointments", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdaJA3GElSn0ILRJeLiyWRZdcwq3-LEDpUVm4zu5Vo7IHlfGQ/viewform"}, {"title": "CH27: Preparing Insurance Claims", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdvqsCPZTlJTzzUfQtqm5OFUXyiXMcpU00HW-QfGB0S7CUByA/viewform"}, {"title": "CH29: Banking Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf40QkhHYM-AiFrdiGSE36XCbyzooPQUvlksSfNZxg-F4E5gw/viewform"}, {"title": "CH25: Procedural & Diagnostic Coding", "url": "https://docs.google.com/forms/d/e/1FAIpQLSes4J_WSWPD2aHhb0jVqGh6T6h7VSGA7tmD_Cxw_jxTabBChQ/viewform"}, {"title": "CH28: Patient Billing & Payments", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeF9jutUaN-2lCeF1XQwU8xKAJI0b-8kgX8cEgUq5PM70r_Mw/viewform"}, {"title": "CH26: Patient Accounts", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFtuROToo8sIZBkHnZ9-SIlUrSQFC7fElW8ZPGfVPTkeaIpw/viewform"}, {"title": "CH30: Accounting Procedures", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeo5sT3umiS7WZHBmZpQpOOKT3utbHFnYCDiTgXmNxLvly-OA/viewform"}], "Kinns": [{"title": "CH06: Technology", "url": "https://docs.google.com/forms/d/e/1FAIpQLScvxgCgAjZ5Zs28AlYyeptUScwgh3DHgr5B_UGuTdYoxvNYsA/viewform"}, {"title": "CH09: Scheduling Appointments", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdaHAGJlFAnIrAwULq9UVn8l9GA3eAq8UubXs_UQDIaRQmQ5Q/viewform"}, {"title": "CH13: Diagnostic Coding Essentials", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdgBlfq5l8PgT0rlIVQgqFlHiAZytftEIBQ8xktVB0CFeIJIg/viewform"}, {"title": "CH12: Health Insurance Essentials", "url": "https://docs.google.com/forms/d/e/1FAIpQLSf9WtLsZ4g-hRwF61087Vs3wPBLdDmQTRiGF9ZrExU8RxPiVQ/viewform"}, {"title": "CH14: Procedural Coding Essentials", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdnnsw7qcNdszS33Ks78GYGe1edI_ZheP3ZBE82uMdGrBHEqA/viewform"}, {"title": "CH14: Procedural Coding Essentials", "url": "https://docs.google.com/forms/d/e/1FAIpQLScn-IeKCFkfd9VtD1SkwfpkWcbvWjpOGx9NI2GSInU8G5-ZTQ/viewform"}, {"title": "CH10: Health Records", "url": "https://docs.google.com/forms/d/e/1FAIpQLSd6y8HwfFiugdNTM6_xVr2-AZUXh-9KpBagCcKdZFYn9xaZnA/viewform"}, {"title": "CH11: Daily Operations and Safety", "url": "https://docs.google.com/forms/d/e/1FAIpQLSegkgBvRGjWVUy0sgEWKKsOorkywACWpOujVBanFymrYjwfDQ/viewform"}, {"title": "CH16: Patient Accounts & Practice MGMT", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeDQEL0eP7-KzPAP3JT55ZI3VQBsQYmLFImROUYV0Q7wEDAYQ/viewform"}, {"title": "CH15: Medical Billing & Reimbursement", "url": "https://docs.google.com/forms/d/e/1FAIpQLSelnaQ6ONZdO5RvV1M2fF3XauKbxT5UmNRxZGdaZtUxnxhFVQ/viewform"}, {"title": "CH17: Advanced Roles in Admin", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfXnv8XbGWCEwK6xN-OHGbyyFY4odmCzlYEE1Yb4bLjpoOMZA/viewform"}]}}, {"number": 6, "title": "Domain 6: Communication and Customer Service", "sources": {"Blesi": [{"title": "CH04: Communication Skills", "url": "https://docs.google.com/forms/d/e/1FAIpQLScDmRwUgD6drJfot5G9URZeRJMrDjcmd4TqXImybg8gVaoa7g/viewform"}, {"title": "CH19: Telephone Communications", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdIKc8qYizCmkQ9yXUpmDoabLTiXeEaOgfwxuAyxrMELtaIlg/viewform"}, {"title": "CH20: Written Communications", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfg-PLV4Ofxgl21UjAp2AbyroNzEtetEEpnZo7SXAfMptc5Lg/viewform"}], "Kinns": [{"title": "CH02: Therapeutic Communication", "url": "https://docs.google.com/forms/d/e/1FAIpQLSc_LF7TFZFgdhXWJ2aIZj6H7KBMvqWRqPv6IfKgYgrdoi1ujg/viewform"}, {"title": "CH07: Written Communication", "url": "https://docs.google.com/forms/d/e/1FAIpQLSceAnT9x9yFicvKmFggq0XjVYuxNCpBO7tbGp3umApJCXI8ig/viewform"}, {"title": "CH08: Telephone Techniques", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeeB433TDSXvK7MciJxvHWPTsePVD8bK8oiJz-gB9E2QKWC_A/viewform"}]}}, {"number": 7, "title": "Domain 7: Medical Law and Ethics", "sources": {"Blesi": [{"title": "CH03: Legal & Ethical Issues", "url": "https://docs.google.com/forms/d/e/1FAIpQLScAdvfbhfP06GusxCLvAFAwWKpK_gMVwGigY30uQE7e8N8Xfw/viewform"}], "Kinns": [{"title": "CH03: Legal Principles", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdAekHm85b-JNMULKiiemhvLHgNSeOXC_oXoQ4R6aMvYrSVTQ/viewform"}, {"title": "CH04: Healthcare Laws", "url": "https://docs.google.com/forms/d/e/1FAIpQLSeOHhPxRwZfKXWxxiZ04buj0BYraqSYXZKhGUpWAGx-PQOIlQ/viewform"}, {"title": "CH05: Healthcare Ethics", "url": "https://docs.google.com/forms/d/e/1FAIpQLSdYlUsoajDIxvKU_h2atq6hDVM-tIbbYePep5-Ozo1pAjXLaw/viewform"}]}}]};
 
 
+
 const APP_CONFIG = {
-  webAppUrl: 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE',
-  studentEmail: 'PASTE_STUDENT_EMAIL_HERE',
+  webAppUrl: 'https://script.google.com/macros/s/AKfycbyqHt3_fvPGHifgAVCk1G9Iug94jkBvwIibY38j65A5LMQH-H5e2P6O5jSpWrRiMuESeg/exec',
+  googleClientId: '760704756331-hv3nvjsgg5o3215uv6601vrfibdsicem.apps.googleusercontent.com',
   examType: 'MA',
-  pollMs: 10000,
 };
 
 const domainStack = document.getElementById('domainStack');
@@ -15,9 +15,18 @@ const searchResults = document.getElementById('searchResults');
 const searchMeta = document.getElementById('searchMeta');
 const closeSearch = document.getElementById('closeSearch');
 const toggleAll = document.getElementById('toggleAll');
+const authTitle = document.getElementById('authTitle');
+const authMeta = document.getElementById('authMeta');
+const googleButtonSlot = document.getElementById('googleButtonSlot');
+const refreshScoresBtn = document.getElementById('refreshScores');
+const changeAccountBtn = document.getElementById('changeAccount');
+const signedInChip = document.getElementById('signedInChip');
 
 const DOMAIN_SOURCES = ['Blesi', 'Kinns'];
 const DOMAIN_PREFIX_RE = /^Domain\s+\d+\s*:\s*/i;
+const STORAGE_KEYS = {
+  googleAccount: 'practicehub.googleAccount',
+};
 
 const state = {
   openDomains: new Set(),
@@ -26,7 +35,9 @@ const state = {
   studentState: null,
   config: null,
   fetchError: '',
-  pollHandle: null,
+  account: null,
+  googleReady: false,
+  googleInitialized: false,
 };
 
 function normalize(value) {
@@ -104,47 +115,63 @@ function setStoredValue(key, value) {
       localStorage.setItem(key, value);
     }
   } catch (error) {
-    // ignore storage failures during local testing
+    // ignore storage failures
   }
 }
 
-function persistRuntimeConfig(config) {
-  if (config.webAppUrl && !config.webAppUrl.includes('PASTE_')) {
-    setStoredValue('practicehub.webAppUrl', config.webAppUrl);
-  }
-  if (config.studentEmail && config.studentEmail.includes('@')) {
-    setStoredValue('practicehub.studentEmail', config.studentEmail);
-  }
-  if (config.examType) {
-    setStoredValue('practicehub.examType', config.examType);
+function removeStoredValue(key) {
+  try {
+    if (window.localStorage) {
+      localStorage.removeItem(key);
+    }
+  } catch (error) {
+    // ignore storage failures
   }
 }
 
 function getRuntimeConfig() {
   const params = new URLSearchParams(window.location.search);
-  const webAppUrl = clean(params.get('webAppUrl') || getStoredValue('practicehub.webAppUrl') || APP_CONFIG.webAppUrl);
-  const studentEmail = normalize(params.get('studentEmail') || getStoredValue('practicehub.studentEmail') || APP_CONFIG.studentEmail);
-  const examType = clean(params.get('examType') || getStoredValue('practicehub.examType') || APP_CONFIG.examType) || 'MA';
-
-  const config = {
-    webAppUrl,
-    studentEmail,
-    examType,
-    pollMs: APP_CONFIG.pollMs,
+  return {
+    webAppUrl: clean(params.get('webAppUrl') || APP_CONFIG.webAppUrl),
+    googleClientId: clean(params.get('googleClientId') || APP_CONFIG.googleClientId),
+    examType: clean(params.get('examType') || APP_CONFIG.examType) || 'MA',
   };
+}
 
-  persistRuntimeConfig(config);
-  return config;
+function getStoredAccount() {
+  const raw = getStoredValue(STORAGE_KEYS.googleAccount);
+  if (!raw) return null;
+
+  try {
+    const parsed = JSON.parse(raw);
+    if (!parsed || !parsed.email) return null;
+    return parsed;
+  } catch (error) {
+    return null;
+  }
+}
+
+function persistAccount(account) {
+  if (account && account.email) {
+    setStoredValue(STORAGE_KEYS.googleAccount, JSON.stringify(account));
+  }
+}
+
+function clearStoredAccount() {
+  removeStoredValue(STORAGE_KEYS.googleAccount);
 }
 
 function hasConfiguredEndpoint() {
   const url = state.config && state.config.webAppUrl;
-  return !!(url && url.startsWith('http') && !url.includes('PASTE_'));
+  return !!(url && url.startsWith('http'));
 }
 
-function hasConfiguredStudentEmail() {
-  const email = state.config && state.config.studentEmail;
-  return !!(email && email.includes('@') && !email.includes('PASTE_'));
+function activeStudentEmail() {
+  return state.account && state.account.email ? normalize(state.account.email) : '';
+}
+
+function hasSignedInAccount() {
+  return !!activeStudentEmail();
 }
 
 function domainLookup() {
@@ -338,7 +365,7 @@ function collectSearchMatches(query) {
           domainTitle: domain.title,
           sourceLabel: sourceLabel(source),
           title: link.title,
-          url: link.url
+          url: link.url,
         });
       }
     }
@@ -389,19 +416,63 @@ function renderSearch() {
   }
 }
 
+function decodeJwtPayload(credential) {
+  if (!credential || typeof credential !== 'string') return null;
+
+  try {
+    const parts = credential.split('.');
+    if (parts.length < 2) return null;
+    const base64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+    const padded = base64 + '='.repeat((4 - (base64.length % 4)) % 4);
+    const json = decodeURIComponent(atob(padded).split('').map((char) => {
+      return `%${(`00${char.charCodeAt(0).toString(16)}`).slice(-2)}`;
+    }).join(''));
+    return JSON.parse(json);
+  } catch (error) {
+    console.error('PracticeHub decodeJwtPayload failed:', error);
+    return null;
+  }
+}
+
+function renderAuthState() {
+  const signedIn = hasSignedInAccount();
+  const activeEmail = activeStudentEmail();
+
+  if (signedIn) {
+    authTitle.textContent = `Scores for ${activeEmail}`;
+    authMeta.textContent = state.fetchError || 'Signed in with Google. Refresh after a quiz if you want the newest scores right away.';
+    signedInChip.textContent = activeEmail;
+    signedInChip.classList.remove('hidden');
+    refreshScoresBtn.disabled = false;
+    changeAccountBtn.classList.remove('hidden');
+    googleButtonSlot.classList.add('hidden');
+  } else {
+    authTitle.textContent = 'Sign in with Google to load your scores';
+    authMeta.textContent = state.fetchError || 'Use the same Google account you use for Google Classroom and Forms quizzes.';
+    signedInChip.textContent = '';
+    signedInChip.classList.add('hidden');
+    refreshScoresBtn.disabled = true;
+    changeAccountBtn.classList.add('hidden');
+    googleButtonSlot.classList.remove('hidden');
+  }
+}
+
 async function fetchStudentState() {
-  if (!hasConfiguredEndpoint() || !hasConfiguredStudentEmail()) {
+  if (!hasConfiguredEndpoint() || !hasSignedInAccount()) {
     state.fetchError = '';
+    state.studentState = signedInChip.classList.contains('hidden') ? null : state.studentState;
+    renderAuthState();
     renderDomains();
     return;
   }
 
   const url = new URL(state.config.webAppUrl);
   url.searchParams.set('action', 'studentState');
-  url.searchParams.set('studentEmail', state.config.studentEmail);
+  url.searchParams.set('studentEmail', activeStudentEmail());
   url.searchParams.set('examType', state.config.examType);
 
   try {
+    authMeta.textContent = 'Loading live scores...';
     const response = await fetch(url.toString(), {
       method: 'GET',
       credentials: 'omit',
@@ -420,24 +491,78 @@ async function fetchStudentState() {
     state.studentState = payload;
     state.fetchError = '';
     renderDomains();
+    renderAuthState();
   } catch (error) {
     console.error('PracticeHub fetchStudentState failed:', error);
-    state.fetchError = 'Could not load live mastery yet.';
+    state.fetchError = 'Could not load live scores right now.';
     renderDomains();
+    renderAuthState();
   }
 }
 
-function startPolling() {
-  if (state.pollHandle) {
-    clearInterval(state.pollHandle);
+function useSignedInAccount(payload) {
+  if (!payload || !payload.email) {
+    state.fetchError = 'Google sign-in did not return an email address.';
+    renderAuthState();
+    return;
   }
 
-  state.pollHandle = window.setInterval(() => {
-    if (document.visibilityState === 'visible') {
-      fetchStudentState();
-    }
-  }, state.config.pollMs);
+  state.account = {
+    email: normalize(payload.email),
+    name: clean(payload.name || ''),
+    picture: clean(payload.picture || ''),
+    sub: clean(payload.sub || ''),
+  };
+
+  persistAccount(state.account);
+  state.fetchError = '';
+  renderAuthState();
+  fetchStudentState();
 }
+
+function handleGoogleCredentialResponse(response) {
+  const payload = decodeJwtPayload(response && response.credential);
+  if (!payload) {
+    state.fetchError = 'Could not read the Google sign-in response.';
+    renderAuthState();
+    return;
+  }
+
+  useSignedInAccount(payload);
+}
+
+function initGoogleSignIn() {
+  if (state.googleInitialized || !state.googleReady || !state.config.googleClientId) return;
+  if (!window.google || !google.accounts || !google.accounts.id) return;
+
+  state.googleInitialized = true;
+
+  google.accounts.id.initialize({
+    client_id: state.config.googleClientId,
+    callback: handleGoogleCredentialResponse,
+    auto_select: false,
+    cancel_on_tap_outside: true,
+  });
+
+  google.accounts.id.renderButton(googleButtonSlot, {
+    type: 'standard',
+    theme: 'outline',
+    size: 'large',
+    text: 'signin_with',
+    shape: 'rectangular',
+    width: 260,
+    logo_alignment: 'left',
+  });
+
+  if (!hasSignedInAccount()) {
+    google.accounts.id.prompt();
+  }
+}
+
+window.practiceHubOnGoogleLoaded = function () {
+  state.googleReady = true;
+  initGoogleSignIn();
+};
 
 q.addEventListener('input', () => {
   state.query = q.value;
@@ -462,18 +587,46 @@ toggleAll.addEventListener('click', () => {
   renderDomains();
 });
 
-window.addEventListener('focus', () => {
+refreshScoresBtn.addEventListener('click', () => {
   fetchStudentState();
 });
 
+changeAccountBtn.addEventListener('click', () => {
+  clearStoredAccount();
+  state.account = null;
+  state.studentState = null;
+  state.fetchError = '';
+  if (window.google && google.accounts && google.accounts.id) {
+    google.accounts.id.disableAutoSelect();
+  }
+  renderAuthState();
+  renderDomains();
+  if (state.googleReady && window.google && google.accounts && google.accounts.id) {
+    google.accounts.id.prompt();
+  }
+});
+
+window.addEventListener('focus', () => {
+  if (hasSignedInAccount()) {
+    fetchStudentState();
+  }
+});
+
 document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible') {
+  if (document.visibilityState === 'visible' && hasSignedInAccount()) {
     fetchStudentState();
   }
 });
 
 state.config = getRuntimeConfig();
+state.account = getStoredAccount();
 renderDomains();
 renderSearch();
-fetchStudentState();
-startPolling();
+renderAuthState();
+if (window.google && window.google.accounts && window.google.accounts.id) {
+  state.googleReady = true;
+  initGoogleSignIn();
+}
+if (hasSignedInAccount()) {
+  fetchStudentState();
+}
