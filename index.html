@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NHA CCMA Question Pools</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap header-wrap">
+      <div class="header-row">
+        <h1><a class="title-link" href="https://www.nhanow.com/docs/default-source/test-plans/nha_ccma_test_plan_2022.pdf" target="_blank" rel="noopener noreferrer">NHA</a> <span class="title-rest">CCMA Question Pools</span></h1>
+        <div class="controls">
+          <button id="toggleAll" class="toggle-all-btn expand" type="button">Expand All</button>
+          <input id="q" type="search" placeholder="Search quizzes..." autocomplete="off" aria-label="Search quizzes" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card search-card hidden" id="searchCard" aria-live="polite">
+      <div class="search-head">
+        <div>
+          <h2>Search Results</h2>
+          <p id="searchMeta" class="search-meta"></p>
+        </div>
+        <button class="ghost-btn" id="closeSearch" type="button">Close</button>
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Domains</h2>
+      </div>
+      <div class="domain-stack" id="domainStack"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
