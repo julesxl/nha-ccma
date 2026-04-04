@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,13 +33,23 @@
     </section>
 
     <section class="card">
-      <div class="card-head">
-        <h2>Domains</h2>
+      <div class="auth-panel">
+        <div class="auth-copy">
+          <h2 id="authTitle" class="auth-title">Sign in with Google to load your scores</h2>
+          <p id="authMeta" class="auth-meta">Use the same Google account you use for Google Classroom and Forms quizzes.</p>
+          <div id="signedInChip" class="signed-in-chip hidden" aria-live="polite"></div>
+        </div>
+        <div class="auth-actions">
+          <div id="googleButtonSlot" class="google-button-slot" aria-label="Sign in with Google"></div>
+          <button id="refreshScores" class="ghost-btn" type="button" disabled>Refresh Scores</button>
+          <button id="changeAccount" class="ghost-btn hidden" type="button">Use another Google account</button>
+        </div>
       </div>
       <div class="domain-stack" id="domainStack"></div>
     </section>
   </main>
 
+  <script src="https://accounts.google.com/gsi/client" async defer onload="window.practiceHubOnGoogleLoaded && window.practiceHubOnGoogleLoaded()"></script>
   <script src="app.js"></script>
 </body>
 </html>
