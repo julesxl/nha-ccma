@@ -2,7 +2,7 @@ const DATA = {"domains": [{"number": 1, "title": "Domain 1: Foundational Knowled
 
 
 const APP_CONFIG = {
-  webAppUrl: 'https://script.google.com/macros/s/AKfycbyqHt3_fvPGHifgAVCk1G9Iug94jkBvwIibY38j65A5LMQH-H5e2P6O5jSpWrRiMuESeg/exec',
+  webAppUrl: 'https://script.google.com/macros/s/AKfycbxywPQJfoypvhnp22wDSDNSQsNvctvOOgJvuhbcZzHWvcyUQn4puFgdvvZHdFJjeIyIIg/exec',
   googleClientId: '760704756331-hv3nvjsgg5o3215uv660lvrfibdsicem.apps.googleusercontent.com',
   examType: 'MA',
 };
@@ -37,6 +37,7 @@ const state = {
   account: null,
   googleReady: false,
   googleInitialized: false,
+  loadingScores: false,
 };
 
 function normalize(value) {
@@ -457,6 +458,8 @@ function renderAuthState() {
 }
 
 async function fetchStudentState() {
+  if (state.loadingScores) return;
+
   if (!hasConfiguredEndpoint() || !hasSignedInAccount()) {
     state.fetchError = '';
     state.studentState = signedInChip.classList.contains('hidden') ? null : state.studentState;
@@ -469,6 +472,9 @@ async function fetchStudentState() {
   url.searchParams.set('action', 'studentState');
   url.searchParams.set('studentEmail', activeStudentEmail());
   url.searchParams.set('examType', state.config.examType);
+
+  state.loadingScores = true;
+  refreshScoresBtn.disabled = true;
 
   try {
     authMeta.textContent = 'Loading live scores...';
@@ -496,6 +502,9 @@ async function fetchStudentState() {
     state.fetchError = 'Could not load live scores right now.';
     renderDomains();
     renderAuthState();
+  } finally {
+    state.loadingScores = false;
+    refreshScoresBtn.disabled = !hasSignedInAccount();
   }
 }
 
@@ -516,7 +525,6 @@ function useSignedInAccount(payload) {
   persistAccount(state.account);
   state.fetchError = '';
   renderAuthState();
-  fetchStudentState();
 }
 
 function handleGoogleCredentialResponse(response) {
@@ -605,18 +613,6 @@ changeAccountBtn.addEventListener('click', () => {
   }
 });
 
-window.addEventListener('focus', () => {
-  if (hasSignedInAccount()) {
-    fetchStudentState();
-  }
-});
-
-document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible' && hasSignedInAccount()) {
-    fetchStudentState();
-  }
-});
-
 state.config = getRuntimeConfig();
 state.account = getStoredAccount();
 renderDomains();
@@ -625,7 +621,4 @@ renderAuthState();
 if (window.google && window.google.accounts && window.google.accounts.id) {
   state.googleReady = true;
   initGoogleSignIn();
-}
-if (hasSignedInAccount()) {
-  fetchStudentState();
 }
